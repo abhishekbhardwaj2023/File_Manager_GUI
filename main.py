@@ -98,7 +98,7 @@ root.configure(bg= 'black')
 
 # label
 Label(root, text="Python GUI File Manager", font=("Helvetica", 16), fg="red", bg='black').grid(row=0, column=1)
-Label(root, text="By Abhishek Bhardwaj", font=("Helvetica", 8), fg="#000fff000", bg='black').grid(row=1, column=1, columnspan=2)
+Label(root, text="--By Abhishek Bhardwaj", font=("Helvetica", 8), fg="#000fff000", bg='black').grid(row=1, column=1, columnspan=2)
 
 # Buttons
 Button(root, text="Open a File", command=open_file, width=30, bg='#000fff000').grid(row=3, column=0)
